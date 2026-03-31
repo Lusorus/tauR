@@ -1,0 +1,19 @@
+Package: tauR
+Type: Package
+Title: Tools for Asymptotic Richness Estimation and Accumulation Curves
+Version: 0.1.0
+Date: 2026-03-30
+Author: Dmitriy G. Seleznev
+Maintainer: Dmitriy G. Seleznev <dmitriy@seleznev.name>
+Description: Provides tools for estimating asymptotic species richness using
+    simple nonlinear models, computing bootstrap confidence intervals, and
+    visualizing Mao's tau accumulation curves.
+License: GPL-3
+Encoding: UTF-8
+Imports: 
+    vegan
+Roxygen: list(markdown = TRUE, roclets = c("rd", "namespace"))
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
