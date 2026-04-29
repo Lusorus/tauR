@@ -55,6 +55,7 @@ tau.plot(t(dune))
 
 - **tau.plot** — visualizes Mao’s tau, empirical confidence intervals, and fitted asymptotic models.
 
+All functions expect community data matrices with species in rows and samples in columns.
 
 ## Citation
 
